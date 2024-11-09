@@ -174,11 +174,11 @@ uni ichida esa myList elementlarini yig'indisini print qilasizlar.
 #     mini = min(a)
 #     original_a = a[:]
 #     a.clear()
-#     for i in original_a:
-#         a.append(i * mini)
-#     print(a)
+#     for i in original_a: a.append(i * mini)
+#     return a
 #
-# work_with_list([32, 3, 23, 43, 3, 34, 32, 43454, 554, 656, 7878, 34, 4])
+#
+# print(work_with_list([32, 3, 23, 43, 3, 34, 32, 43454, 554, 656, 7878, 34, 4]))
 
 """
 11. big_sales(sales) funksiyasini yarating. 
