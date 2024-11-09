@@ -239,7 +239,7 @@ Eng qimmat telefon nomini print qilib bersin bu funksiya.
 #
 #     for product in products:
 #         if product["price"] > max_product["price"]:
-#             max_product = product
+#             max_product = product["name"]
 #     return max_product
 #
 #
