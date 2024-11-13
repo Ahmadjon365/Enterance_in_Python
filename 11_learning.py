@@ -46,8 +46,10 @@
 
 # filter: appending only True
 
-l = [2, 4, 3, 5, 6, 7, 8, 9]
-r = list(filter(lambda z: z % 2 == 0, l))
-print(r)
+# l = [2, 4, 3, 5, 6, 7, 8, 9]
+# r = list(filter(lambda z: z % 2 == 0, l))
+# print(r)
 
 #                                        Vazifalar                                         #
+
+
