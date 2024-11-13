@@ -1,4 +1,6 @@
 # Kontaktlar ro'yxati
+from dateutil.parser import parser
+
 contacts = {"Nodir": "+998918602711", "Laziz": "+998908002534"}
 
 
