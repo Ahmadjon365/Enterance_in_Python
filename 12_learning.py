@@ -70,7 +70,6 @@ Tim sort xotirani kamroq yeydi va murakkab funksiya (python foydalanadi, tezkor)
 Quick sort esa xotiradan ko'proq joy oladi.
 """
 
-
 # def quick_sort(lst):
 #     if len(lst) <= 1:
 #         return lst
@@ -88,13 +87,21 @@ Quick sort esa xotiradan ko'proq joy oladi.
 
 # # Tower of Hanoi: Solving the puzzle:
 # def TowerOfHanoi(n, tayoqdan='A', tayoqqa='C', yordamchi='B'):
+#     # Agar faqat bitta disk bo'lsa, uni bevosita maqsaddagi tayoqqa ko'chirish
 #     if n == 1:
-#         print(n ,"- diskni oling", tayoqdan, 'dan', tayoqqa, "ga")
+#         print(n, "- diskni oling", tayoqdan, 'dan', tayoqqa, "ga")
 #         return
+#
+#     # 1-qadam: n-1 ta diskni yordamchi tayoqqa ko'chirish
 #     TowerOfHanoi(n - 1, tayoqdan, yordamchi, tayoqqa)
+#
+#     # 2-qadam: eng katta (n) diskni boshlang'ich tayoqdan maqsaddagi tayoqqa ko'chirish
 #     print(n, "- diskni ko'chiring", tayoqdan, 'dan', tayoqqa, "ga")
+#
+#     # 3-qadam: yordamchi tayoqdagi disklarni maqsaddagi tayoqqa ko'chirish
 #     TowerOfHanoi(n - 1, yordamchi, tayoqqa, tayoqdan)
 #
 #
+# # Misol
 # n = int(input("Disklar sonini kiriting: "))
 # TowerOfHanoi(n)
