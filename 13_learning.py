@@ -145,7 +145,7 @@ def group_generator(my_list, n):
 
 # Foydalanish
 my_list = [1, 2, 3, 4]
-n = 2
+n = 3
 gen = group_generator(my_list, n)
 for group in gen:
     print(group, end=" → ")
