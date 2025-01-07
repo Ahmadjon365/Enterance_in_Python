@@ -67,20 +67,12 @@
 # import time
 #
 #
-# def start_timer():
-#     return time.time()
-#
-#
-# def end_timer(start_time):
-#     return time.time() - start_time
-#
-#
 # def time_teller(func):
 #     def sett(*args, **kwargs):
-#         start_time = start_timer()
+#         start_time = time.time()
 #         result = func(*args, **kwargs)
-#         elapsed_time = end_timer(start_time)
-#         print(f"{func.__name__} --- {elapsed_time:.4f} soniyada bajarildi.")
+#         elapsed_time = time.time() - start_time
+#         print(f"{func.__name__} --- {elapsed_time:.3f} soniyada bajarildi.")
 #         return result
 #
 #     return sett
