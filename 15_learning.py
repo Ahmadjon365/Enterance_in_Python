@@ -85,17 +85,25 @@
 #     print("Funksiya to'xtadi")
 #
 #
+# @time_teller
+# def lot_func():
+#     i = 0
+#     for _ in range(10 ** 7):
+#         i += _
+#         print(i)
+#     print("Funksiya to'xtadi")
+#
+#
+# lot_func()
 # example_function()
 
 """
 4. Funksiya necha marta chaqirilganini sanovchi dekorator yozing
 """
 
-
 # def count_calls(func):
 #     def sett(*args, **kwargs):
 #         sett.calls += 1
-#         print(f"Funksiya {sett.calls} marta chaqirildi.")
 #         return func(*args, **kwargs)
 #
 #     sett.calls = 0
@@ -104,10 +112,11 @@
 #
 # @count_calls
 # def example_function():
-#     print("Funksiya bajarildi")
+#     return True
 #
 #
 # # Test
 # example_function()
 # example_function()
 # example_function()
+# print(example_function.calls)
