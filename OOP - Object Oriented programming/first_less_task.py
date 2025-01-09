@@ -132,6 +132,31 @@ yoq bolsa xech narsa qilmasin.
 """
 
 
+class MyClass7:
+    myDict = {}
+
+    def add_some(self, key, value):
+        if key in self.myDict.keys():
+            pass
+        else:
+            self.myDict[key] = value
+
+    def update_some(self, key, value):
+        if key in self.myDict:
+            self.myDict[key] = value
+        else:
+            pass
+
+    def chop_et(self):
+        print(self.myDict)
+
+
+some = MyClass7
+
+some.add_some(MyClass7, "sen", "men")
+some.chop_et(MyClass7)
+some.update_some(MyClass7, "sen", "siz")
+some.chop_et(MyClass7)
 
 """
 8. "MyClass8" nomli klass elon qililar. Bu klassdan "numbers" list o'zgaruvchisi bor.
