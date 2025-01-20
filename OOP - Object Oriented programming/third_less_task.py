@@ -1,6 +1,7 @@
 """Tasks that third lesson"""
 
-"""Instance Method Tasks:
+"""
+Instance Method Tasks:
 
 1. Create a class BankAccount with an attribute balance. Implement methods deposit, withdraw, and check_balance to deposit, withdraw, and check the balance of the bank account, respectively.
 2. Create a class Rectangle with attributes length and width. Implement methods area, perimeter, and is_square to calculate the area, perimeter, and check if the rectangle is a square, respectively.
