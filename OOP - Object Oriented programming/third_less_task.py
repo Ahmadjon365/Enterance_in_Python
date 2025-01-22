@@ -144,6 +144,7 @@ Class Method Tasks:
 """
 
 
+# 6
 class Dog:
     total_dogs = 0
 
@@ -155,6 +156,7 @@ class Dog:
         return cls.total_dogs
 
 
+# 7
 class Computer:
     total_computers = 0
     computers_list = []
@@ -169,6 +171,7 @@ class Computer:
         cls.total_computers += 1
 
 
+# 8
 class Employee:
     total_employees = 0
     employees_list = []
@@ -183,6 +186,7 @@ class Employee:
         cls.total_employees += 1
 
 
+# 9
 class Television:
     average_screen_size = 0
     total_televisions = 0
@@ -199,6 +203,7 @@ class Television:
                                   ) / cls.total_televisions
 
 
+# 10
 class Course:
     total_courses = 0
     courses_list = []
@@ -253,30 +258,35 @@ Static Method Tasks:
 """
 
 
+# 11
 class Math:
     @staticmethod
     def multiply(a, b):
         return a * b
 
 
+# 12
 class Temperature:
     @staticmethod
     def celsius_to_fahrenheit(celsius):
         return (celsius * 9 / 5) + 32
 
 
+# 13
 class Distance:
     @staticmethod
     def miles_to_kilometers(miles):
         return miles * 1.60934
 
 
+# 14
 class Utility:
     @staticmethod
     def is_even(number):
         return number % 2 == 0
 
 
+# 15
 class Time:
     @staticmethod
     def seconds_to_minutes(seconds):
